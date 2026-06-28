@@ -2,7 +2,7 @@
 
 > A Snake-inspired, **hardware-based game** written in Verilog that processes inputs from a game controller and outputs graphics on a **VGA display** — built using VGA Playground.
 
-This repository is for anyone interested in how graphic systems work at the **low-level**: chip design and microelectronics.
+This repository is for anyone interested in how the VGA system works, verilog and chip design.
 
 I'll walk through how I built this project as a **tutorial** for those who want to make their own VGA game! 🎮
 
