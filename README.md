@@ -25,7 +25,7 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 
 As you can see there's a sprite in the middle of the screen that can be moved up/down/left/right by pressing the corresponding keys.
 
-## 📖 Development Story
+## 📖 Development Story (Before synthesis).
 
 ### 📚 Pre-requisite Knowledge
 
@@ -33,5 +33,6 @@ As you can see there's a sprite in the middle of the screen that can be moved up
 
 - 🖥️ **VGA Physics** — Understanding the VGA input/output signals and the timings.
 - ⚙️ **Verilog HDL** — An intermediate level.
+
 
 ### Understanding the Bitmap ROM
