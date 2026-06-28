@@ -25,7 +25,11 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 
 - 🖥️ **VGA Physics** — Understanding the VGA input/output signals and the timings.
 - ⚙️ **Verilog HDL** — An intermediate level.
-
+- 🎮 **VGA Playground Modules** — Open the VGA Playground **"Logo"** project and familiarise yourself with the `hsync` module:
+  - How is the Verilog in this module **driving the VGA monitor**?
+  - How is it **manipulating the VGA signals**?
+  
+  > ⚠️ This module is the **most important one** to understand before proceeding.
 ## The Game showcased in the VGA playground ( As of writing the project is incomplete. This image is from my current version. This will be updated when I have fully finished it).
 
 <img width="959" height="501" alt="image" src="https://github.com/user-attachments/assets/fbfb1d69-64a0-47c6-9042-931455836cc2" />
@@ -34,7 +38,9 @@ As you can see there's a sprite in the middle of the screen that can be moved up
 
 ## 📖 Development Story (Before synthesis).
 
-
-
-
 ### Understanding the Bitmap ROM
+
+<img width="477" height="426" alt="image" src="https://github.com/user-attachments/assets/981fbce9-836c-47e9-86d2-38de30d5c01d" />
+
+This is what the example VGA playground project "Logo" looks like. It's a Tiny Tapeout logo displayed in the screen that bounces around the borders of the screen. You can change the colour of it and do other things by changing the input pins but we'll ignore that feature.
+
