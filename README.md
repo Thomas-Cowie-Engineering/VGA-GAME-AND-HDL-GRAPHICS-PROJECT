@@ -54,3 +54,8 @@ Using this 128x128 bitmap rom system, we simply take an image (the sprite you ha
 
 I reccomend the website: https://javl.github.io/image2cpp/
 
+### Prototype 1 - Standalone sprite on the centre of the screen, not moving.
+
+
+
+
