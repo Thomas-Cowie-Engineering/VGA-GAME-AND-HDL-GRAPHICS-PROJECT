@@ -19,7 +19,11 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 
 ---
 
-## The Game showcased ( As of writing the project is incomplete. This image is from my current version. This will be updated when I have fully finished it).
+## The Game showcased in the VGA playground ( As of writing the project is incomplete. This image is from my current version. This will be updated when I have fully finished it).
+
+<img width="959" height="501" alt="image" src="https://github.com/user-attachments/assets/fbfb1d69-64a0-47c6-9042-931455836cc2" />
+
+As you can see there's a sprite in the middle of the screen that can be moved up/down/left/right by pressing the corresponding keys.
 
 ## 📖 Development Story
 
