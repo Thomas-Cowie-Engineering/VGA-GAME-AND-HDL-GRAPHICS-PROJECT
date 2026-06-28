@@ -1,0 +1,19 @@
+## 📖 Development Story (Before synthesis).
+
+### Understanding the Bitmap ROM
+
+<img width="477" height="426" alt="image" src="https://github.com/user-attachments/assets/981fbce9-836c-47e9-86d2-38de30d5c01d" />
+
+This is what the example VGA playground project "Logo" looks like. It's a Tiny Tapeout logo displayed on the screen that bounces around the borders of the screen. You can change the colour of it and do other things by changing the input pins but we'll ignore that feature.
+
+<img width="182" height="146" alt="image" src="https://github.com/user-attachments/assets/471fa533-8c93-4a1d-9b11-de76a7386cea" />
+
+This comes from the "Bitmap_rom.v" module. The module makes a Rom that has 2048 memory addresses where each address stores one byte of data that is the equivallent of 8 pixels. The rom stores a 128x128 frame. Each bit that's a "1" is a pixel of colour (white,blue,red,ect...) and a "0" is a pixel that matches the background colour of your screen (black in the "LOGO" example) to give the illusion that it doesn't exist when it does. Remember, the VGA electron beam goes from the top left of the screen to bottom right so your very first bit will be top left of the frame and your very last bit will be the bottom right of the frame.
+
+#### How do we get sophisticated bitmap images ? Mess around with the bits (pixels) and hope for the best ?
+
+Using this 128x128 bitmap rom system, we simply take an image (the sprite you have made) put it into a software that converts the image into an array of bites and put it back into the rom module. Simple !
+
+I reccomend the website: https://javl.github.io/image2cpp/
+
+### Prototype 1 - Standalone sprite on the centre of the screen, not moving.
