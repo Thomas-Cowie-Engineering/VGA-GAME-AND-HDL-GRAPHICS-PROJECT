@@ -19,6 +19,8 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 
 ---
 
+## The Game showcased ( As of writing the project is incomplete. This image is from my current version. This will be updated when I have fully finished it).
+
 ## 📖 Development Story
 
 ### 📚 Pre-requisite Knowledge
@@ -28,3 +30,4 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 - 🖥️ **VGA Physics** — Understanding the VGA input/output signals and the timings.
 - ⚙️ **Verilog HDL** — An intermediate level.
 
+### Understanding the Bitmap ROM
