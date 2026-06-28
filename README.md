@@ -1,15 +1,24 @@
-## VGA-GAME-AND-HDL-GRAPHICS-PROJECT
+# 🐍 VGA Game & HDL Graphics Project
 
-A Snake inspired hardware based game made in verilog that processes inputs from a game controller and outputs the corresponding graphics on a VGA display, made in VGA playground.
+> A Snake-inspired, **hardware-based game** written in Verilog that processes inputs from a game controller and outputs graphics on a **VGA display** — built using VGA Playground.
 
-This repository is for those who are interested in how graphic systems are made at the low, chip design, micro-electronic level.
-I'll showcase how I made this project to act as a tutorial for those who wish to make a VGA game of their own !
+This repository is for anyone interested in how graphic systems work at the **low-level**: chip design and microelectronics.
 
-Recourses used:
+I'll walk through how I built this project as a **tutorial** for those who want to make their own VGA game! 🎮
 
-. Tiny Tapeout VGA playground to emulate the project before synthesis.
-https://vga-playground.com/
-. The playgrounds verilog open source modules: hsync_generator.v, bitmap_rom.v , gamepad_pmod - modified for my own uses.
+---
 
-The development story:
+## 📦 Resources Used
 
+| Resource | Description |
+|---|---|
+| [VGA Playground](https://vga-playground.com/) | Tiny Tapeout emulator used to test the project before synthesis |
+| `hsync_generator.v` | Open-source sync module from the playground |
+| `bitmap_rom.v` | Bitmap ROM module, modified for this project |
+| `gamepad_pmod` | Gamepad input module, modified for this project |
+
+---
+
+## 📖 Development Story
+
+### Understanding How VGA Works
