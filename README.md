@@ -21,4 +21,10 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 
 ## 📖 Development Story
 
-### Understanding How VGA Works
+### 📚 Pre-requisite Knowledge
+
+> Before diving in, make sure you're comfortable with the following:
+
+- 🖥️ **VGA Physics** — Understanding the electrical and timing signals behind how VGA works
+- ⚙️ **Verilog HDL** — An intermediate level of comfort with Hardware Description Language
+
