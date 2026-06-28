@@ -25,6 +25,6 @@ I'll walk through how I built this project as a **tutorial** for those who want 
 
 > Before diving in, make sure you're comfortable with the following:
 
-- 🖥️ **VGA Physics** — Understanding the electrical and timing signals behind how VGA works
-- ⚙️ **Verilog HDL** — An intermediate level of comfort with Hardware Description Language
+- 🖥️ **VGA Physics** — Understanding the VGA input/output signals and the timings.
+- ⚙️ **Verilog HDL** — An intermediate level.
 
